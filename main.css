@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+button {
+  border-radius: 7px;
+  padding: 14px;
+  cursor: pointer;
+  background-color: #25afd1;
+  color: #fff;
+}
+
+.sidebar {
+  position: fixed;
+  right: -390px;
+  top: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #25afd1;
+  color: #fff;
+  padding: 20px;
+}
+
+.overLay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(86, 144, 232, 0.311);
+}
+
+.sideUP {
+  right: 0px;
+  transition: 0.8s;
+}
